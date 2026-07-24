@@ -1,0 +1,13 @@
+{
+  "total_scanned": 35,
+  "representation_mode": "domain_features",
+  "reference_population": "full_sample_robust",
+  "n_reference": 35,
+  "anomaly_threshold": 2.0,
+  "top_k_exported": 35,
+  "status_breakdown": {
+    "NO_ASTROMETRY": 35
+  },
+  "total_uncorrelated_anomalies": 0,
+  "top_uncorrelated_anomalies": []
+}

@@ -1,0 +1,85 @@
+{
+  "total_scanned": 40,
+  "representation_mode": "domain_features",
+  "reference_population": "full_sample_robust",
+  "n_reference": 40,
+  "anomaly_threshold": 2.0,
+  "top_k_exported": 40,
+  "status_breakdown": {
+    "UNCORRELATED_ANOMALY": 39,
+    "NO_ASTROMETRY": 1
+  },
+  "total_uncorrelated_anomalies": 39,
+  "top_uncorrelated_anomalies": [
+    {
+      "object_id": "OBJ_000",
+      "Surprisal_Score": NaN,
+      "Period_Guess_Hours": 0.5,
+      "Phase_Sharpness": 0.94,
+      "Orbital_Regime": "SIDEREAL_STATIONARY"
+    },
+    {
+      "object_id": "OBJ_001",
+      "Surprisal_Score": NaN,
+      "Period_Guess_Hours": 0.21,
+      "Phase_Sharpness": 0.952,
+      "Orbital_Regime": "SIDEREAL_STATIONARY"
+    },
+    {
+      "object_id": "OBJ_002",
+      "Surprisal_Score": NaN,
+      "Period_Guess_Hours": 1.66,
+      "Phase_Sharpness": 0.921,
+      "Orbital_Regime": "SIDEREAL_STATIONARY"
+    },
+    {
+      "object_id": "OBJ_003",
+      "Surprisal_Score": NaN,
+      "Period_Guess_Hours": 0.35,
+      "Phase_Sharpness": 0.897,
+      "Orbital_Regime": "SIDEREAL_STATIONARY"
+    },
+    {
+      "object_id": "OBJ_004",
+      "Surprisal_Score": NaN,
+      "Period_Guess_Hours": 0.54,
+      "Phase_Sharpness": 0.896,
+      "Orbital_Regime": "SIDEREAL_STATIONARY"
+    },
+    {
+      "object_id": "OBJ_006",
+      "Surprisal_Score": NaN,
+      "Period_Guess_Hours": 5.97,
+      "Phase_Sharpness": 0.918,
+      "Orbital_Regime": "SIDEREAL_STATIONARY"
+    },
+    {
+      "object_id": "OBJ_007",
+      "Surprisal_Score": NaN,
+      "Period_Guess_Hours": 0.35,
+      "Phase_Sharpness": 0.947,
+      "Orbital_Regime": "SIDEREAL_STATIONARY"
+    },
+    {
+      "object_id": "OBJ_008",
+      "Surprisal_Score": NaN,
+      "Period_Guess_Hours": 0.25,
+      "Phase_Sharpness": 0.964,
+      "Orbital_Regime": "SIDEREAL_STATIONARY"
+    },
+    {
+      "object_id": "OBJ_009",
+      "Surprisal_Score": NaN,
+      "Period_Guess_Hours": 1.68,
+      "Phase_Sharpness": 0.911,
+      "Orbital_Regime": "SIDEREAL_STATIONARY"
+    },
+    {
+      "object_id": "OBJ_010",
+      "Surprisal_Score": NaN,
+      "Period_Guess_Hours": 0.68,
+      "Phase_Sharpness": 0.918,
+      "Orbital_Regime": "SIDEREAL_STATIONARY"
+    }
+  ]
+}

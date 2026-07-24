@@ -1,0 +1,96 @@
+{
+  "total_scanned": 360,
+  "representation_mode": "domain_features",
+  "reference_population": "catalog_matched",
+  "n_reference": 300,
+  "anomaly_threshold": 2.0,
+  "top_k_exported": 20,
+  "status_breakdown": {
+    "KNOWN_STAR_OR_QSO": 300,
+    "UNCORRELATED_ANOMALY": 59,
+    "UNMATCHED_LOW_SIGNIFICANCE": 1
+  },
+  "total_uncorrelated_anomalies": 59,
+  "top_uncorrelated_anomalies": [
+    {
+      "object_id": "ZTF_MOCK_D0049",
+      "Surprisal_Score": 16.285,
+      "Period_Guess_Hours": 5.31,
+      "Phase_Sharpness": 0.886,
+      "Orbital_Regime": "GEO_BELT_DRIFTER_CANDIDATE"
+    },
+    {
+      "object_id": "ZTF_MOCK_D0024",
+      "Surprisal_Score": 11.303,
+      "Period_Guess_Hours": 0.41,
+      "Phase_Sharpness": 1.0,
+      "Orbital_Regime": "GEO_BELT_DRIFTER_CANDIDATE"
+    },
+    {
+      "object_id": "ZTF_MOCK_D0012",
+      "Surprisal_Score": 10.07,
+      "Period_Guess_Hours": 1.39,
+      "Phase_Sharpness": 0.991,
+      "Orbital_Regime": "GEO_BELT_DRIFTER_CANDIDATE"
+    },
+    {
+      "object_id": "ZTF_MOCK_D0046",
+      "Surprisal_Score": 9.506,
+      "Period_Guess_Hours": 2.86,
+      "Phase_Sharpness": 1.0,
+      "Orbital_Regime": "GEO_BELT_DRIFTER_CANDIDATE"
+    },
+    {
+      "object_id": "ZTF_MOCK_D0052",
+      "Surprisal_Score": 8.681,
+      "Period_Guess_Hours": 0.39,
+      "Phase_Sharpness": 1.0,
+      "Orbital_Regime": "GEO_BELT_DRIFTER_CANDIDATE"
+    },
+    {
+      "object_id": "ZTF_MOCK_D0050",
+      "Surprisal_Score": 8.633,
+      "Period_Guess_Hours": 2.25,
+      "Phase_Sharpness": 0.735,
+      "Orbital_Regime": "GEO_BELT_DRIFTER_CANDIDATE"
+    },
+    {
+      "object_id": "ZTF_MOCK_D0014",
+      "Surprisal_Score": 8.067,
+      "Period_Guess_Hours": 0.23,
+      "Phase_Sharpness": 0.987,
+      "Orbital_Regime": "GEO_BELT_DRIFTER_CANDIDATE"
+    },
+    {
+      "object_id": "ZTF_MOCK_D0009",
+      "Surprisal_Score": 6.917,
+      "Period_Guess_Hours": 0.41,
+      "Phase_Sharpness": 0.998,
+      "Orbital_Regime": "SIDEREAL_STATIONARY"
+    },
+    {
+      "object_id": "ZTF_MOCK_D0034",
+      "Surprisal_Score": 6.647,
+      "Period_Guess_Hours": 2.56,
+      "Phase_Sharpness": 0.985,
+      "Orbital_Regime": "GEO_BELT_DRIFTER_CANDIDATE"
+    },
+    {
+      "object_id": "ZTF_MOCK_D0045",
+      "Surprisal_Score": 6.206,
+      "Period_Guess_Hours": 1.8,
+      "Phase_Sharpness": 1.0,
+      "Orbital_Regime": "SIDEREAL_STATIONARY"
+    }
+  ],
+  "validation_against_simulation_truth": {
+    "note": "Ground-truth labels used ONLY here, after scoring - never during discovery.",
+    "surprisal_ROC_AUC": 0.9929,
+    "surprisal_PR_AUC": 0.963,
+    "component_ROC_AUC": {
+      "domain_features": 0.9929
+    },
+    "flag_precision": 1.0,
+    "flag_recall": 0.9833
+  }
+}

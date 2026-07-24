@@ -1,0 +1,27 @@
+# Dark Satellite Hunter - Dependencies
+# Requires Python >= 3.10 (declare via environment, not pip)
+# NOTE: torch 2.2.x wheels are compiled against NumPy 1.x -> keep numpy < 2.
+
+numpy>=1.24.0,<2.0.0
+scipy>=1.11.0
+pandas>=2.0.0
+polars>=0.19.0
+scikit-learn>=1.3.0
+
+torch>=2.2.0
+lightning>=2.2.0
+
+plotly>=5.18.0
+streamlit>=1.32.0
+
+astropy>=5.3.0
+sgp4>=2.22
+
+tqdm>=4.66.0
+
+# Optional extras (pipeline degrades gracefully without them):
+# umap-learn>=0.5.5     # 2-D latent projection in the dashboard (PCA fallback built in)
+# astroquery>=0.4.7     # online Simbad / MPC cone searches (offline mode is default)
+# wandb>=0.16.0         # experiment tracking (CSV logging is the default)
+# pyarrow>=14.0.0       # required only when reading real ZTF Parquet archives
+# pytest>=7.4.0         # to run the test suite

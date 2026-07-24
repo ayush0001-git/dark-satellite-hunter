@@ -1,0 +1,13 @@
+d_model: 256
+dec_dim: 128
+dec_heads: 4
+dec_layers: 2
+enc_heads: 8
+enc_layers: 4
+in_channels: 2
+lr: 0.0001
+mask_ratio: 0.75
+max_epochs: 12
+patch_len: 16
+seq_len: 256
+weight_decay: 1.0e-05
