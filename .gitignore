@@ -3,3 +3,15 @@
 .env.*
 *.env
 *.key
+
+# === ENV FILES - NEVER UPLOAD (API KEYS SAFE) ===
+.env
+.env.*
+*.env
+.env.local
+.env.production
+.env.development
+*.pem
+*.key
+secrets.yaml
+secrets.yml
